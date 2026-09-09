@@ -1,0 +1,86 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.intro{
+    color: #00ff9d;
+}
+
+.intro span{
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    background: linear-gradient(to right, #00ff9d, transparent);
+    margin-left: 10px;
+}
+
+.name{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.tech{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.tech span{
+    color: #00ff9d;
+}
+
+.description{
+    width: 450px;
+    color: #c8c8c8;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.links{
+    display: flex;
+    gap: 1rem;
+}
+
+.links a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.links a .icon{
+    width: 20px;
+    height: 20px;
+}
+
+.view-projects{
+    background-color: #008854;
+}
+
+.github{
+    background-color: #000000;
+}
+
+.view-projects:hover{
+    background-color: #00c278;
+}
+
+.github:hover{
+    background-color: #ffffff32;
+}
