@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html, body{
+html{
     font-size: 16px;
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -22,6 +22,7 @@ header{
     align-items: center;
     padding: 20px;
     border-bottom: 1px solid #cccccc5e;
+    background: linear-gradient(135deg , #000000 , #010c16 , #020609);
     z-index: 999;
 }
 
